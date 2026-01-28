@@ -1,0 +1,7 @@
+Input (128×128×1)
+→ Conv → ReLU → MaxPool
+→ Conv → ReLU → MaxPool
+→ Conv → ReLU → MaxPool
+→ Flatten
+→ Dense
+→ Output (Sigmoid)
