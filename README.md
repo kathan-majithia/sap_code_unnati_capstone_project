@@ -1,17 +1,17 @@
-🖋 Intelligent Signature Forgery Detection System
+# 🖋 Intelligent Signature Forgery Detection System
 
 An AI-powered web application that detects and compares handwritten signatures to identify genuine and forged signatures using Deep Learning (CNN) and Computer Vision.
 
-📌 Problem Statement (Short)
+## 📌 Problem Statement (Short)
 
 Handwritten signatures are widely used for authentication in banking, legal, and administrative processes. Manual verification of signatures is time-consuming, subjective, and prone to human error, especially with large volumes of documents. This project aims to develop an intelligent, automated signature forgery detection system that accurately distinguishes between genuine and forged signatures using deep learning techniques, thereby improving security, efficiency, and reliability.
 
-💡 Solution Overview
+## 💡 Solution Overview
 
 This system uses a Convolutional Neural Network (CNN) trained on grayscale signature images to learn distinguishing features such as stroke patterns, curvature, and texture.
 Users can upload two signature images through a web interface, and the system analyzes both signatures to determine which one is real and which one is forged, based on model confidence scores.
 
-🗂 Project Structure
+## 🗂 Project Structure
 ```text
 signature_project/
 │
@@ -34,7 +34,7 @@ signature_project/
 └── README.md
 ```
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 🔹 Machine Learning
 
 - TensorFlow 2.13.1
@@ -57,7 +57,7 @@ signature_project/
 - Python 3.10
 - Virtual Environment (venv)
 
-⚙️ How It Works
+## ⚙️ How It Works
 
 1. User uploads two signature images
 
@@ -69,7 +69,7 @@ signature_project/
 
 5. Signature with higher confidence is labeled REAL, the other FORGED
 
-🚀 How to Run the Project Locally
+## 🚀 How to Run the Project Locally
 ✅ Prerequisites
 
 - Python 3.10 (recommended)
@@ -102,7 +102,7 @@ python app.py
 🔹 Step 5: Open in Browser
 http://127.0.0.1:5000
 
-📊 Model Details
+## 📊 Model Details
 
 - Input size: 128 × 128 grayscale images
 
@@ -116,7 +116,7 @@ http://127.0.0.1:5000
 
 - Optimizer: Adam
 
-🎯 Key Features
+## 🎯 Key Features
 
 - Upload and compare two signatures
 
@@ -128,7 +128,7 @@ http://127.0.0.1:5000
 
 - Scalable and extensible design
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 - Support for bulk signature verification
 
@@ -140,7 +140,7 @@ http://127.0.0.1:5000
 
 - Improved accuracy with data augmentation
 
-👨‍💻 Author
+## 👨‍💻 Authors
 
 Meet Parmar | B.Tech | Computer Engineering | Gcet
 
