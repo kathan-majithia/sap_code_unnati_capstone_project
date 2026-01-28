@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.upload-box {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+
+.upload-box span {
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+input[type="file"] {
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    background: #00d2ff;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.3);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Hide default ugly file input */
+.file-label input[type="file"] {
+    display: none;
+}
+
+/* Custom upload button */
+.file-label span {
+    display: inline-block;
+    width: 80%;
+    padding: 14px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect */
+.file-label span:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    opacity: 0.95;
+}
+
+/* Active (click) effect */
+.file-label span:active {
+    transform: scale(0.98);
+}
+
+/* Upload box spacing */
+.upload-box {
+    margin: 18px 0;
+}
+.file-name {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #dcdcdc;
+    opacity: 0.85;
+    word-break: break-all;
+}
